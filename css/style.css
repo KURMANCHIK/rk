@@ -28,3 +28,135 @@
     max-width: 1040px;
     margin: 0 auto;
   }
+  .main__main-text {
+    color: rgb(255, 255, 255);
+    font-family: Sofia Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -2%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .main__text {
+    color: rgb(255, 255, 255);
+    font-family: Sofia Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    max-width: 514px;
+  }
+  
+  main {
+    background-color: var(--main-purple);
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  .mt {
+    color: rgb(255, 255, 255);
+    font-family: Sofia Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -2%;
+    text-align: center;
+  }
+  
+  .bt {
+    color: rgb(255, 255, 255);
+    font-family: Sofia Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -2%;
+    text-align: center;
+  }
+  
+  .main__statistics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 18px;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .main__statistics--item {
+    width: 142px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--main-peach);
+  }
+  
+  .main__main-img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .main__back-phone {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .main__tel {
+    color: rgb(26, 20, 35);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 8px 37px;
+    background-color: var(--main-white);
+    margin: 0 auto;
+    border-radius: 8px;
+    display: block;
+    width: 287px;
+  }
+  
+  .main__button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: center;
+    padding: 8px 18px;
+    background-color: var(--main-peach);
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    border-radius: 8px;
+    width: 287px;
+    justify-content: center;
+  }
+  
+  .main__flex {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+  }
