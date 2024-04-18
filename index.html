@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <button>
-            <img src="" alt>
-        </button>
-        <button>
-            <img src="" alt>
-        </button>
+      <div class="header-container">
+        <div class="header-container__flex-container">
+          <img src="img/menu.svg" alt="" class="header-container__logo" />
+          <img src="img/tick.svg" alt="" class="header-container__exit" />
+        </div>
+        <img src="img/logo.png" alt="" class="header-container__logo" />
+      </div>
     </header>
+
     <main>
-        <section>
-
-        </section>
-        <section>
-
-        </section>
+      <div class="main-container">
+        <h1 class="main__main-text">Integer tincidunt nulla</h1>
+        <p class="main__text">
+          Duis sed luctus ex. Fusce scelerisque erat eu lacus sollicitudin
+          posuere. Pellentesque metus nibh, facilisis sed sodales sed, viverra
+          vitae nulla.
+        </p>
+        <ul class="main__statistics">
+            <li class="main__statistics--item"><span class="mt">клиентов</span><span class="bt">20К</span></li>
+            <li class="main__statistics--item"><span class="mt">заказов</span><span class="bt">80К</span></li>
+            <li class="main__statistics--item"><span class="mt">звонков</span><span class="bt">200К</span></li>
+            <li class="main__statistics--item"><span class="mt">рекомендаций</span><span class="bt">8К</span></li>
+        </ul>
+        <picture>
+            <source media="(min-width: 630px)" srcset="img/main-big.png" alt="">
+            <img src="img/main-mob.png" alt="" class="main__main-img">
+        </picture>
+        <div class="main__flex">
+            <p class="main__back-phone">телефон для обратной связи</p>
+            <a href="tel:+79999999999" class="main__tel">+7(999) 999-99-99</a>
+            <button class="main__button"><span>Заказать звонок</span><img src="img/phone.svg" alt=""></button>
+        </div>
+      </div>
     </main>
-    <footer>
-
-    </footer>
-</body>
+  </body>
 </html>

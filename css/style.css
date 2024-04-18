@@ -1,0 +1,30 @@
+:root {
+    --main-black: rgb(26, 20, 35);
+    --main-purple: rgb(55, 37, 73);
+    --main-peach: rgb(183, 93, 105);
+    --main-white: #fff;
+  }
+  
+  header {
+    background-color: var(--main-black);
+  }
+  
+  .header-container {
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .header-container__flex-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .main-container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
